@@ -11,7 +11,7 @@ module.exports = {
     colors: {
       textColor: " #fafcfd",
       mainColor: "#141210",
-      hoverColor: "#853f2c",
+      hoverColor: "#ffbd8f",
       burgerLinkColor: "#b6a19b",
     },
     container: {

@@ -32,7 +32,15 @@ export default function Header(): JSX.Element {
                     </ul>
                 </SheetContent>
             </Sheet>
-
+            <ul className='hidden laptop:flex laptop:flex-row laptop:gap-7 laptop:ml-auto desktop:gap-10'>
+                <li ><Links href="https://open.spotify.com/artist/1IHidn13htJrgxUiBgke5F" size="s" className="flex flex-row gap-3 items-center"> <SiSpotify className="w-6 h-6 desktop:w-7 desktop:h-7" /></Links> </li>
+                <li><Links href="https://music.apple.com/ua/artist/alex-goroshko/1508207527" size="s" className="flex flex-row gap-3 items-center"><SiApplemusic className="w-6 h-6 desktop:w-7 desktop:h-7" /></Links> </li>
+                <li><Links href="https://www.amazon.com/s?k=Alex+Goroshko&i=digital-music&qid=1641898959&search-type=ss&ref=sr_pg_2" size="s" className="flex flex-row gap-3 items-center"><ImAmazon className="w-6 h-6 desktop:w-7 desktop:h-7" /></Links> </li>
+                <li><Links href="https://music.youtube.com/browse/UC5dZant-Sucog_ziaC-MUpg" size="s" className="flex flex-row gap-3 items-center"><ImYoutube className="w-6 h-6 desktop:w-7 desktop:h-7" /></Links></li>
+                <li><Links href="https://alexgoroshko.bandcamp.com/" size="s" className="flex flex-row gap-3 items-center"><SiBandcamp className="w-6 h-6 desktop:w-7 desktop:h-7" /></Links></li>
+                <li><Links href="https://www.instagram.com/alexgoroshko8/" size="s" className="flex flex-row gap-3 items-center"><SiInstagram className="w-6 h-6 desktop:w-7 desktop:h-7" /></Links></li>
+                <li><Links href="https://www.facebook.com/alexander.goroshko.OR/" size="s" className="flex flex-row gap-3 items-center"><SiFacebook className="w-6 h-6 desktop:w-7 desktop:h-7" /></Links></li>
+            </ul>
         </header >
     )
 }
