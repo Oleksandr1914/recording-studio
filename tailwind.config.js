@@ -9,8 +9,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      textColor: "#e2e8f0",
+      textColor: " #fafcfd",
       mainColor: "#141210",
+      hoverColor: "#853f2c",
+      burgerLinkColor: "#b6a19b",
     },
     container: {
       center: true,
