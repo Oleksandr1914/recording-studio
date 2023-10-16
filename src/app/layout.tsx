@@ -43,7 +43,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${cfont.variable}`}>
+      <body className={`${cfont.variable} relative`}>
         <Header />
         {children}</body>
     </html>
