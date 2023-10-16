@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function Header(): JSX.Element {
     return (
-        <header className="flex flex-row justify-between px-5 py-2 items-center mobile:w-[480px] mobile:mx-auto tablet:w-[640px] tablet:px-8 tablet:py-4  desktop:w-[1280px] desktop:px-14">
+        <header className="absolute left-1/2 translate-x-[-50%] flex flex-row justify-between w-full px-5 py-2 items-center  mobile:w-[480px] mobile:mx-auto tablet:w-[640px] tablet:px-8 tablet:py-4  desktop:w-[1280px] desktop:px-14">
             <Image src={Logo} alt="logo" className="w-10 h-10" />
             <Sheet>
                 <SheetTrigger className="laptop:hidden ">
