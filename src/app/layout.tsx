@@ -1,3 +1,4 @@
+import Header from '@/components/header/Header'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -32,7 +33,7 @@ const cfont = LocalFont({
 
 export const metadata: Metadata = {
   title: 'Alex Goroshko',
-  description: 'студія звукозапису Олксандра Горошко',
+  description: 'recording studio of Alex Goroshko',
 }
 
 export default function RootLayout({
@@ -41,8 +42,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="uk">
+    <html lang="en">
       <body className={`${cfont.variable}`}>
+        <Header />
         {children}</body>
     </html>
   )
