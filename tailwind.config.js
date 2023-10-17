@@ -11,8 +11,7 @@ module.exports = {
     colors: {
       textColor: " #fafcfd",
       mainColor: "#141210",
-      hoverColor: "#ffbd8f",
-      burgerLinkColor: "#b6a19b",
+      hoverColor: "#833928",
     },
     container: {
       center: true,
@@ -31,6 +30,8 @@ module.exports = {
       backgroundImage: {
         "hero-image": "url('/public/alex-hero.jpg')",
         hero: "url(/public/alex.JPG)",
+        "radial-gradient":
+          "radial-gradient(circle, rgba(255,255,255,0.006127450980392135) 0%, rgba(20,18,16,1) 100%)",
       },
       keyframes: {
         "accordion-down": {
