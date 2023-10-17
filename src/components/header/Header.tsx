@@ -14,7 +14,7 @@ import Links from "../Links/Links";
 
 export default function Header(): JSX.Element {
     return (
-        <header className=" flex flex-row justify-between w-full px-5 py-2 items-center  mobile:w-[480px] mobile:mx-auto tablet:w-[640px] tablet:px-8 tablet:py-4 laptop:w-[1024px] leptop:px-10 laptop:py-5 desktop:w-[1280px] desktop:px-14">
+        <header className="flex flex-row justify-between w-full px-5 py-2 items-center  mobile:w-[480px] mobile:mx-auto tablet:w-[640px] tablet:px-8 tablet:py-4 laptop:w-[1024px] leptop:px-10 laptop:py-5 desktop:w-[1280px] desktop:px-14">
             <Image src={Logo} alt="logo" className="w-10 h-10" />
             <Sheet>
                 <SheetTrigger className="laptop:hidden ">
