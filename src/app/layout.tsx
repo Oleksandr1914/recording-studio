@@ -1,40 +1,9 @@
 import Header from '@/components/header/Header'
 import './globals.css'
+import { Work_Sans } from 'next/font/google'
 import type { Metadata } from 'next'
 
-import LocalFont from 'next/font/local'
-
-const cfont = LocalFont({
-  src: [
-    {
-      path: '../../public/fonts/medium.ttf',
-      weight: "500",
-      style: 'medium',
-    },
-    {
-      path: '../../public/fonts/bolt.ttf',
-      weight: "700",
-      style: 'bolt',
-    },
-    {
-      path: '../../public/fonts/italic.ttf',
-      weight: "400",
-      style: 'italic',
-    },
-    {
-      path: '../../public/fonts/extrabolt.ttf',
-      weight: "800",
-      style: 'extrabolt',
-    },
-    {
-      path: '../../public/fonts/normal.ttf',
-      weight: "400",
-      style: 'normal',
-    },
-  ],
-  variable: '--font-cfont',
-})
-
+const workSans = Work_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Alex Goroshko',
@@ -48,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${cfont.variable} relative`}>
+      <body className={workSans.className}>
         <Header />
         {children}</body>
     </html>
