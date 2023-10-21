@@ -7,24 +7,29 @@ import LocalFont from 'next/font/local'
 const cfont = LocalFont({
   src: [
     {
-      path: '../../public/fonts/my-font.ttf',
-      weight: '400',
-      style: 'normal',
+      path: '../../public/fonts/medium.ttf',
+      weight: "500",
+      style: 'medium',
     },
     {
-      path: '../../public/fonts/my-font-medium.ttf',
-      weight: '500',
-      style: 'normal',
+      path: '../../public/fonts/bolt.ttf',
+      weight: "700",
+      style: 'bolt',
     },
     {
-      path: '../../public/fonts/my-font-bolt.ttf',
-      weight: '700',
-      style: 'normal',
-    },
-    {
-      path: '../../public/fonts/my-font-italic.ttf',
-      weight: '500',
+      path: '../../public/fonts/italic.ttf',
+      weight: "400",
       style: 'italic',
+    },
+    {
+      path: '../../public/fonts/extrabolt.ttf',
+      weight: "800",
+      style: 'extrabolt',
+    },
+    {
+      path: '../../public/fonts/normal.ttf',
+      weight: "400",
+      style: 'normal',
     },
   ],
   variable: '--font-cfont',
